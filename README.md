@@ -21,7 +21,7 @@ CREATE TABLE (
 2. Run `npm install`
 3. Run `npm run start:app`
 
-### Some CURL commands you can Run In PowerShell
+### Some CURL commands to execute in PowerShell
  - "/getusers" =>
 ```curl --location --request GET '127.0.0.1:3000/api/v1/getusers' `
 --header 'Content-Type: application/json'```
