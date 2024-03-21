@@ -45,7 +45,8 @@ curl --location --request POST '127.0.0.1:3000/api/v1/adduser' `
 
 - "/deleteuser/:id" =>
 ```
-curl --location --request DELETE '127.0.0.1:3000/api/v1/deleteuser/4' --header 'Content-Type: application/json'
+curl --location --request DELETE '127.0.0.1:3000/api/v1/deleteuser/4' `
+--header 'Content-Type: application/json'
 ```
 
 - "/updateuser/:id" =>
